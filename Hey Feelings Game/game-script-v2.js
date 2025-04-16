@@ -214,8 +214,8 @@ document.addEventListener('DOMContentLoaded', function() {
     gameWrapper.style.userSelect = 'none';
     
     // Zwiększenie rozmiaru przycisków dźwięku
-    soundOnBtn.style.transform = 'scale(2)';
-    soundOffBtn.style.transform = 'scale(2)';
+    soundOnBtn.style.transform = 'scale(3)';
+    soundOffBtn.style.transform = 'scale(3)';
     
     updateCursor();
     updateSoundButtons();
