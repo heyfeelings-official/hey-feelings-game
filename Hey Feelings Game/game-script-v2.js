@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const zoomOutBtn = document.getElementById('zoom-out');
     const gameWrapper = document.getElementById('game-wrapper');
 
+    // Ukryj przyciski dźwięku
+    if (soundOnBtn) soundOnBtn.style.display = 'none';
+    if (soundOffBtn) soundOffBtn.style.display = 'none';
+
     // Funkcje zarządzania widocznością przycisków
     function updateSoundButtons() {
         soundOnBtn.style.display = video.muted ? 'block' : 'none';
