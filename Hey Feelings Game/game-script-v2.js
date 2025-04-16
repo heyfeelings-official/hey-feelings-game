@@ -212,6 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicjalizacja stylów i stanów
     gameWrapper.style.transformOrigin = '0 0';
     gameWrapper.style.userSelect = 'none';
+    
     updateCursor();
     updateSoundButtons();
     updateFullscreenButtons();
