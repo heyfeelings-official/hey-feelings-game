@@ -212,6 +212,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicjalizacja stylów i stanów
     gameWrapper.style.transformOrigin = '0 0';
     gameWrapper.style.userSelect = 'none';
+    
+    // Zwiększenie rozmiaru przycisków dźwięku
+    soundOnBtn.style.transform = 'scale(2)';
+    soundOffBtn.style.transform = 'scale(2)';
+    
     updateCursor();
     updateSoundButtons();
     updateFullscreenButtons();
